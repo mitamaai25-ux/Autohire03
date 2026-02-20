@@ -1,0 +1,39 @@
+{
+  "kind": "build_request",
+  "title": "Remove caffeine.ai attribution from footer",
+  "projectName": "Autohire",
+  "priority": "normal",
+  "requirements": [
+    {
+      "id": "REQ-9",
+      "text": "Remove the 'Built with caffeine.ai' attribution link and text from the Footer component",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-user-remove-attribution"
+        ],
+        "quotes": [
+          "remove Built withusing\ncaffeine.ai"
+        ]
+      },
+      "acceptanceCriteria": [
+        "The Footer component no longer displays 'Built with caffeine.ai' text",
+        "The caffeine.ai link is removed from the footer",
+        "Copyright information remains intact",
+        "Footer layout adjusts appropriately without the attribution"
+      ]
+    }
+  ],
+  "constraints": [
+    "Only modify the Footer component",
+    "Preserve existing copyright functionality"
+  ],
+  "nonGoals": [
+    "Changing other parts of the application",
+    "Modifying the layout structure beyond removing the attribution"
+  ],
+  "imageRequirements": {
+    "required": [],
+    "edits": []
+  }
+}
