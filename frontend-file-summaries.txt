@@ -1,0 +1,6 @@
+{
+  "frontend/src/components/CandidateProfileForm.tsx": "Form component for creating and editing candidate profiles with fields for personal info, skills, experience preferences, and availability. Fixed type errors by using undefined instead of null for optional bigint fields.",
+  "frontend/src/components/JobRecommendations.tsx": "Component that displays personalized job recommendations for candidates based on their skills and preferred job types. Filters active job postings and shows up to 6 matching opportunities.",
+  "frontend/src/components/CandidateProfileView.tsx": "Read-only view component that displays a candidate's complete profile including personal information, skills, preferred job types, portfolio links, and resume. Shows availability status with a badge.",
+  "frontend/src/components/Footer.tsx": "Footer component displaying copyright information for the Autohire application with centered layout."
+}
