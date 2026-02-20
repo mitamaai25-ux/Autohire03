@@ -1,0 +1,111 @@
+{
+  "schemaVersion": "1.0.0",
+  "projectStateVersion": 5,
+  "summary": "Autohire - a platform for hiring candidates and managing freelancing opportunities",
+  "architectural_notes": [],
+  "known_issues": [],
+  "isFixRequest": false,
+  "existing_features": [
+    {
+      "id": "feature-create-a-job-posting-system-where-employers-can-create-edit-and-delete-job-listings-with-fields-including-job-title-description-required-skills-employment-type-full-time-part-time-contract-freelance-location-salary-range-and-application-deadline",
+      "title": "Create a job posting system where employers can create, edit, and delete job listings with fields including job title, description, required skills, employment type (full-time, part-time, contract, freelance), location, salary range, and application deadline",
+      "reqIds": [
+        "REQ-1"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-implement-a-candidate-browsing-interface-where-employers-can-search-and-filter-candidates-by-skills-experience-level-availability-and-employment-preferences",
+      "title": "Implement a candidate browsing interface where employers can search and filter candidates by skills, experience level, availability, and employment preferences",
+      "reqIds": [
+        "REQ-2"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-a-candidate-profile-system-where-job-seekers-and-freelancers-can-create-profiles-including-name-professional-summary-skills-work-experience-portfolio-links-hourly-rate-for-freelancers-and-availability-status",
+      "title": "Create a candidate profile system where job seekers and freelancers can create profiles including name, professional summary, skills, work experience, portfolio links, hourly rate (for freelancers), and availability status",
+      "reqIds": [
+        "REQ-3"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-build-an-application-management-system-where-candidates-can-apply-to-job-postings-employers-can-review-applications-and-both-parties-can-track-application-status-pending-reviewed-shortlisted-rejected-accepted",
+      "title": "Build an application management system where candidates can apply to job postings, employers can review applications, and both parties can track application status (pending, reviewed, shortlisted, rejected, accepted)",
+      "reqIds": [
+        "REQ-4"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-implement-a-freelancing-marketplace-view-that-specifically-highlights-freelance-opportunities-and-contract-based-work-separate-from-traditional-employment-listings",
+      "title": "Implement a freelancing marketplace view that specifically highlights freelance opportunities and contract-based work, separate from traditional employment listings",
+      "reqIds": [
+        "REQ-5"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-a-dashboard-for-employers-showing-their-active-job-postings-received-applications-count-and-quick-access-to-candidate-search",
+      "title": "Create a dashboard for employers showing their active job postings, received applications count, and quick access to candidate search",
+      "reqIds": [
+        "REQ-6"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-a-dashboard-for-candidates-showing-recommended-jobs-based-on-their-skills-application-history-and-saved-job-postings",
+      "title": "Create a dashboard for candidates showing recommended jobs based on their skills, application history, and saved job postings",
+      "reqIds": [
+        "REQ-7"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-design-a-professional-modern-visual-theme-for-autohire-with-a-cohesive-color-palette-emphasizing-trust-and-professionalism-clean-typography-optimized-for-readability-of-job-listings-and-profiles-and-a-layout-that-balances-employer-and-candidate-user-flows-effectively",
+      "title": "Design a professional, modern visual theme for Autohire with a cohesive color palette emphasizing trust and professionalism, clean typography optimized for readability of job listings and profiles, and a layout that balances employer and candidate user flows effectively",
+      "reqIds": [
+        "REQ-8"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-remove-the-built-with-caffeine-ai-attribution-link-and-text-from-the-footer-component",
+      "title": "Remove the 'Built with caffeine.ai' attribution link and text from the Footer component",
+      "reqIds": [
+        "REQ-9"
+      ],
+      "version": 1
+    }
+  ],
+  "new_feature_requests": [
+    {
+      "id": "AR-1",
+      "summary": "Job posting system for employers",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-2",
+      "summary": "Candidate browsing and search functionality",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-3",
+      "summary": "Application management system",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-4",
+      "summary": "Freelancing opportunities marketplace",
+      "reqIds": [],
+      "status": "pending"
+    }
+  ],
+  "projectName": "Autohire",
+  "clarification_mode": "instant",
+  "clarification_rounds": 0
+}
